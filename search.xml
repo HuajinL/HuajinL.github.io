@@ -47,7 +47,7 @@
   </entry>
   <entry>
     <title>Android 基础知识</title>
-    <url>/2019/09/10/Android%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E5%AF%BC%E8%88%AA%EF%BC%89/</url>
+    <url>/2019/11/10/Android%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E5%AF%BC%E8%88%AA%EF%BC%89/</url>
     <content><![CDATA[<h3 id="Android基础知识"><a href="#Android基础知识" class="headerlink" title="Android基础知识"></a>Android基础知识</h3><h4 id="一、导航"><a href="#一、导航" class="headerlink" title="一、导航"></a>一、导航</h4><a id="more"></a>
 
 <h5 id="1、页面跳转主要代码"><a href="#1、页面跳转主要代码" class="headerlink" title="1、页面跳转主要代码"></a>1、页面跳转主要代码</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">NavController coloController &#x3D; Navigation.findNavController(v);</span><br><span class="line">coloController.navigate(R.id.action_detialFragment_to_homeFragment);</span><br></pre></td></tr></table></figure>
