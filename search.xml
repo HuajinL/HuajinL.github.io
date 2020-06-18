@@ -23,10 +23,14 @@
     <content><![CDATA[<p>在此感谢up主<a href="https://www.bilibili.com/video/av44544186" target="_blank" rel="noopener">https://www.bilibili.com/video/av44544186</a> 视屏的教学</p>
 <h1 id="基于hexo框架搭建自己的博客-windows10"><a href="#基于hexo框架搭建自己的博客-windows10" class="headerlink" title="基于hexo框架搭建自己的博客(windows10)"></a>基于hexo框架搭建自己的博客(windows10)</h1><a id="more"></a>
 
-<p>前期软件准备  </p>
-<p>1、安装git(<a href="https://git-scm.com/download/win),傻瓜式安装就好，next下一步" target="_blank" rel="noopener">https://git-scm.com/download/win),傻瓜式安装就好，next下一步</a></p>
-<p>2、安装node.js(因为hexo框架基于node),地址在这(<a href="https://nodejs.org/en/" target="_blank" rel="noopener">https://nodejs.org/en/</a>)  </p>
-<p>安装hexo</p>
+<ul>
+<li>前期软件准备  </li>
+</ul>
+<p>1、安装git[<a href="https://git-scm.com/download/win]" target="_blank" rel="noopener">https://git-scm.com/download/win]</a></p>
+<p>2、安装node.js(因为hexo框架基于node),地址在这[<a href="https://nodejs.org/en/]" target="_blank" rel="noopener">https://nodejs.org/en/]</a></p>
+<ul>
+<li>安装hexo</li>
+</ul>
 <p>1、首先查看git与node是否安装好，采用命令(git -v    node -v)查看有无版本号</p>
 <p>2、接下来安装cnpm(npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org/" target="_blank" rel="noopener">https://registry.npm.taobao.org/</a>) (选择镜像到淘宝因为cnpm在国内的下载速度很慢,安好后用 cnpm -v查看)</p>
 <p>3、用安装好的cnpm安装hexo(cnpm install -g hexo-cli),同样采用(hexo -v)查看</p>
@@ -42,7 +46,7 @@
         <category>博客</category>
       </categories>
       <tags>
-        <tag>博客</tag>
+        <tag>博客,Hexo</tag>
       </tags>
   </entry>
   <entry>
