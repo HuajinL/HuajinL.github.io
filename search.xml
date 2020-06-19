@@ -1,38 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hexo 博客</title>
-    <url>/2019/09/05/%E5%9F%BA%E4%BA%8Ehexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2(windows10)/</url>
-    <content><![CDATA[<p>在此感谢up主<a href="https://www.bilibili.com/video/av44544186" target="_blank" rel="noopener">https://www.bilibili.com/video/av44544186</a> 视屏的教学</p>
-<h1 id="基于hexo框架搭建自己的博客-windows10"><a href="#基于hexo框架搭建自己的博客-windows10" class="headerlink" title="基于hexo框架搭建自己的博客(windows10)"></a>基于hexo框架搭建自己的博客(windows10)</h1><a id="more"></a>
-
-<ul>
-<li>前期软件准备  </li>
-</ul>
-<p>1、安装git[<a href="https://git-scm.com/download/win]" target="_blank" rel="noopener">https://git-scm.com/download/win]</a></p>
-<p>2、安装node.js(因为hexo框架基于node),地址在这[<a href="https://nodejs.org/en/]" target="_blank" rel="noopener">https://nodejs.org/en/]</a></p>
-<ul>
-<li>安装hexo</li>
-</ul>
-<p>1、首先查看git与node是否安装好，采用命令(git -v    node -v)查看有无版本号</p>
-<p>2、接下来安装cnpm(npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org/" target="_blank" rel="noopener">https://registry.npm.taobao.org/</a>) (选择镜像到淘宝因为cnpm在国内的下载速度很慢,安好后用 cnpm -v查看)</p>
-<p>3、用安装好的cnpm安装hexo(cnpm install -g hexo-cli),同样采用(hexo -v)查看</p>
-<p>4、现在需要本地搭建，首先用pwd命令查看当前文件夹，可以用cd命令到你想要放置的文件夹采用mkdir命令创建一个新的文件夹(我用的是blog)，用命令pwd查看当前文件夹，如果已经在blog文件夹下则不需要任何操作，如不在，用cd命令定位到blog文件夹下</p>
-<p>5、采用hexo init命令，在输入命令之后等待一会，最后一行出现(INFO Start blogging with Hex)则表明成功，此时在文件夹blog就可以看到八到九个文件夹了，此时基于hexo框架的博客就已经在本地搭好了(只是在本地搭建好了哦)</p>
-<p>6、输入hexo s命令显示</p>
-<p>INFO  Start processing<br>INFO  Hexo is running at <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> . Press Ctrl+C to stop.则表明成功</p>
-<p>7、在浏览器中输入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>   则可以看到自己在本地搭建好的博客</p>
-<p>部署到GitHub下期再见</p>
-<p>“愿你我仍在平凡的世界里还是那个不被人理解和不循规蹈矩的创造者”</p>
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>博客,Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Android 基础知识</title>
     <url>/2019/11/10/Android%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E5%AF%BC%E8%88%AA%EF%BC%89/</url>
     <content><![CDATA[<h3 id="Android基础知识"><a href="#Android基础知识" class="headerlink" title="Android基础知识"></a>Android基础知识</h3><h4 id="一、导航"><a href="#一、导航" class="headerlink" title="一、导航"></a>一、导航</h4><a id="more"></a>
@@ -64,6 +32,38 @@
       </categories>
       <tags>
         <tag>语录</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo 博客</title>
+    <url>/2019/09/05/%E5%9F%BA%E4%BA%8Ehexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2(windows10)/</url>
+    <content><![CDATA[<p>在此感谢up主<a href="https://www.bilibili.com/video/av44544186" target="_blank" rel="noopener">https://www.bilibili.com/video/av44544186</a> 视屏的教学</p>
+<h1 id="基于hexo框架搭建自己的博客-windows10"><a href="#基于hexo框架搭建自己的博客-windows10" class="headerlink" title="基于hexo框架搭建自己的博客(windows10)"></a>基于hexo框架搭建自己的博客(windows10)</h1><a id="more"></a>
+
+<ul>
+<li>前期软件准备  </li>
+</ul>
+<p>1、安装git[<a href="https://git-scm.com/download/win]" target="_blank" rel="noopener">https://git-scm.com/download/win]</a></p>
+<p>2、安装node.js(因为hexo框架基于node),地址在这[<a href="https://nodejs.org/en/]" target="_blank" rel="noopener">https://nodejs.org/en/]</a></p>
+<ul>
+<li>安装hexo</li>
+</ul>
+<p>1、首先查看git与node是否安装好，采用命令(git -v    node -v)查看有无版本号</p>
+<p>2、接下来安装cnpm(npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org/" target="_blank" rel="noopener">https://registry.npm.taobao.org/</a>) (选择镜像到淘宝因为cnpm在国内的下载速度很慢,安好后用 cnpm -v查看)</p>
+<p>3、用安装好的cnpm安装hexo(cnpm install -g hexo-cli),同样采用(hexo -v)查看</p>
+<p>4、现在需要本地搭建，首先用pwd命令查看当前文件夹，可以用cd命令到你想要放置的文件夹采用mkdir命令创建一个新的文件夹(我用的是blog)，用命令pwd查看当前文件夹，如果已经在blog文件夹下则不需要任何操作，如不在，用cd命令定位到blog文件夹下</p>
+<p>5、采用hexo init命令，在输入命令之后等待一会，最后一行出现(INFO Start blogging with Hex)则表明成功，此时在文件夹blog就可以看到八到九个文件夹了，此时基于hexo框架的博客就已经在本地搭好了(只是在本地搭建好了哦)</p>
+<p>6、输入hexo s命令显示</p>
+<p>INFO  Start processing<br>INFO  Hexo is running at <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> . Press Ctrl+C to stop.则表明成功</p>
+<p>7、在浏览器中输入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>   则可以看到自己在本地搭建好的博客</p>
+<p>部署到GitHub下期再见</p>
+<p>“愿你我仍在平凡的世界里还是那个不被人理解和不循规蹈矩的创造者”</p>
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>博客,Hexo</tag>
       </tags>
   </entry>
 </search>
