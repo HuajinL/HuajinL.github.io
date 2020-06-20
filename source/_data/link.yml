@@ -1,0 +1,24 @@
+- class_name: 呓语
+  class_desc: 一段未醒，又做一段，如果这画面有开关
+  link_list:
+    - name: 个人图床
+      link: https://chuibi.cn/
+
+    - name: 个人博客
+      link: https://huajinl.github.io
+
+
+- class_name: 网站
+  class_desc: 值得推荐的网站
+  link_list:
+    - name: Youtube
+      link: https://www.youtube.com/
+
+      descr: 视频网站
+    - name: Weibo
+      link: https://www.weibo.com/
+
+      descr: 中国最大社交分享平台
+    - name: Twitter
+      link: https://twitter.com/
+   
