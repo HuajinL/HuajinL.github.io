@@ -66,4 +66,31 @@
         <tag>博客,Hexo</tag>
       </tags>
   </entry>
+  <entry>
+    <title>Hexo</title>
+    <url>/2020/06/20/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E9%87%8D%E6%96%B0%E9%83%A8%E7%BD%B2Hexo%20blog/</url>
+    <content><![CDATA[<h1 id="重装系统后重新部署Hexo-blog"><a href="#重装系统后重新部署Hexo-blog" class="headerlink" title="重装系统后重新部署Hexo blog"></a>重装系统后重新部署Hexo blog</h1><h5 id="1、安装Git和Node-js"><a href="#1、安装Git和Node-js" class="headerlink" title="1、安装Git和Node.js"></a>1、安装Git和Node.js</h5><h5 id="2、生成ssh密钥"><a href="#2、生成ssh密钥" class="headerlink" title="2、生成ssh密钥"></a>2、生成ssh密钥</h5><p>​        +配置Git个人信息和生成ssh密钥</p>
+<p>​        +打开Git bash ,输入</p>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">"xxxxxx"</span></span><br><span class="line">git config --global user.email <span class="string">"xxxxxx@xx.com"</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">"xxxxxx@xx.com"</span></span><br></pre></td></tr></table></figure>
+
+<p>​        +此上命令中xxxxxx为自己GItHub资料</p>
+<h5 id="3、设置-Github-的-ssh-密钥"><a href="#3、设置-Github-的-ssh-密钥" class="headerlink" title="3、设置 Github 的 ssh 密钥"></a>3、设置 Github 的 ssh 密钥</h5><p>​        +运行完上列命令后，会在  C:\Users\主用户里面出现  .ssh 文件夹，里面有id_rsa 和     id_rsa.pub两个文件夹，复制id_rsa.pub的内容。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/HuajinL/PhotoPlace@latest/2020/06/21/09cc6a6c7b9a2c657d81afcdbd74fa2f.png" alt=""></p>
+<h5 id="4、打开Github网页，依次是-右上角Settings-SSH-and-GPG-keys-New-SSH-key-把复制的内容粘贴到-Key-栏，然后保存。"><a href="#4、打开Github网页，依次是-右上角Settings-SSH-and-GPG-keys-New-SSH-key-把复制的内容粘贴到-Key-栏，然后保存。" class="headerlink" title="4、打开Github网页，依次是 右上角Settings - SSH and GPG keys - New SSH key 把复制的内容粘贴到 Key 栏，然后保存。"></a>4、打开Github网页，依次是 右上角Settings - SSH and GPG keys - New SSH key 把复制的内容粘贴到 Key 栏，然后保存。</h5><p><img src="https://cdn.jsdelivr.net/gh/HuajinL/PhotoPlace@latest/2020/06/21/51c6d6332aaa72d33a7837ac43c9490f.png" alt=""></p>
+<h5 id="5、安装-Hexo-Git-bash"><a href="#5、安装-Hexo-Git-bash" class="headerlink" title="5、安装  Hexo  Git bash"></a>5、安装  Hexo  Git bash</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+<h5 id="6、打开原有博客文件，保留-config-yml，theme-，source-，scaffolds-，package-json，-gitignore-。"><a href="#6、打开原有博客文件，保留-config-yml，theme-，source-，scaffolds-，package-json，-gitignore-。" class="headerlink" title="6、打开原有博客文件，保留_config.yml，theme/，source/，scaffolds/，package.json，.gitignore 。"></a>6、打开原有博客文件，保留_config.yml，theme/，source/，scaffolds/，package.json，.gitignore 。</h5><h5 id="7、安装依赖文件"><a href="#7、安装依赖文件" class="headerlink" title="7、安装依赖文件"></a>7、安装依赖文件</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<h5 id="8、安装部署插件"><a href="#8、安装部署插件" class="headerlink" title="8、安装部署插件"></a>8、安装部署插件</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<h5 id="9、运行测试"><a href="#9、运行测试" class="headerlink" title="9、运行测试"></a>9、运行测试</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
 </search>
