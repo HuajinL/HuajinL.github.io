@@ -65,12 +65,9 @@
       </tags>
   </entry>
   <entry>
-    <title>重装系统后重新部署Hexo blog</title>
-    <url>/2020/06/21/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E9%87%8D%E6%96%B0%E9%83%A8%E7%BD%B2Hexo%20blog/</url>
-    <content><![CDATA[<hr>
-<p>title: 重装系统重新部署Hexo<br>date: 2020.06.20<br>updated: 2020.06.21<br>tags: 博客,Hexo<br>categories: 博客</p>
-<hr>
-<h1 id="重装系统后重新部署Hexo-blog"><a href="#重装系统后重新部署Hexo-blog" class="headerlink" title="重装系统后重新部署Hexo blog"></a>重装系统后重新部署Hexo blog</h1><h5 id="1、安装Git和Node-js"><a href="#1、安装Git和Node-js" class="headerlink" title="1、安装Git和Node.js"></a>1、安装Git和Node.js</h5><h5 id="2、生成ssh密钥"><a href="#2、生成ssh密钥" class="headerlink" title="2、生成ssh密钥"></a>2、生成ssh密钥</h5><p>​        +配置Git个人信息和生成ssh密钥</p>
+    <title>重装系统重新部署Hexo</title>
+    <url>/2020/06/20/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E9%87%8D%E6%96%B0%E9%83%A8%E7%BD%B2Hexo%20blog/</url>
+    <content><![CDATA[<h1 id="重装系统后重新部署Hexo-blog"><a href="#重装系统后重新部署Hexo-blog" class="headerlink" title="重装系统后重新部署Hexo blog"></a>重装系统后重新部署Hexo blog</h1><h5 id="1、安装Git和Node-js"><a href="#1、安装Git和Node-js" class="headerlink" title="1、安装Git和Node.js"></a>1、安装Git和Node.js</h5><h5 id="2、生成ssh密钥"><a href="#2、生成ssh密钥" class="headerlink" title="2、生成ssh密钥"></a>2、生成ssh密钥</h5><p>​        +配置Git个人信息和生成ssh密钥</p>
 <p>​        +打开Git bash ,输入</p>
 <figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">"xxxxxx"</span></span><br><span class="line">git config --global user.email <span class="string">"xxxxxx@xx.com"</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">"xxxxxx@xx.com"</span></span><br></pre></td></tr></table></figure>
 
@@ -87,5 +84,11 @@
 <h5 id="9、运行测试"><a href="#9、运行测试" class="headerlink" title="9、运行测试"></a>9、运行测试</h5><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
 
 ]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>博客,Hexo</tag>
+      </tags>
   </entry>
 </search>
