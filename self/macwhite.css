@@ -1,0 +1,58 @@
+#article-container figure.highlight,
+#article-container pre {
+    color:#f8f8f2;
+    background:#696969
+}
+#article-container figure.highlight .highlight-tools{
+    background:#3f3f3f;
+    color:#fff
+}
+#article-container figure.highlight .gutter pre{
+    color:#d3d3d3;
+    background:grey
+}
+#article-container figure.highlight figcaption a{
+    color:#a9a9a9!important
+}
+pre .deletion{
+    color:#f2777a
+}
+pre .addition{
+    color:#9c9
+}
+pre .meta{
+    color:#f99157
+}
+pre .comment{
+    color:#999
+}
+pre .css .class,pre .css .id,pre .regexp,pre .tag,pre .tag .name{
+    color:#f2777a
+}
+pre .attribute,pre .css .pseudo,pre .html .doctype,pre .ruby .constant,pre .variable,pre .xml .doctype,pre .xml .pi{
+    color:#fc6
+}
+pre .xml .tag .title{
+    color:#69c
+}
+pre .command,pre .constant,pre .literal,pre .number,pre .params,pre .preprocessor{
+    color:#f99157
+}
+pre .built_in{
+    color:#ffcb6b
+}
+pre .css .rules .attribute,pre .formula,pre .header,pre .inheritance,pre .number,pre .ruby .class .title,pre .ruby .symbol,pre .special,pre .string,pre .value,pre .xml .cdata{color:#c3e88d}pre .css .hexcolor,pre .keyword{
+color:#c9c
+}
+pre .title{
+    color:#69c
+}
+pre .coffeescript .title,pre .function,pre .javascript .title,pre .perl .sub,pre .python .decorator,pre .python .title,pre .ruby .function .title,pre .ruby .title .keyword{
+color:#82aaff
+}
+pre .javascript .function,pre .tag .attr{
+    color:#fc6
+}
+pre .selector-class{
+    color:#c9c
+}
