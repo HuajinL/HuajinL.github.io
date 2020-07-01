@@ -21,7 +21,8 @@
   <entry>
     <title>搭建Hexo博客</title>
     <url>/2019/09/05/%E5%9F%BA%E4%BA%8Ehexo%E6%A1%86%E6%9E%B6%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2(windows10)/</url>
-    <content><![CDATA[<p>在此感谢up主<a href="https://www.bilibili.com/video/av44544186" target="_blank" rel="noopener">https://www.bilibili.com/video/av44544186</a> 视屏的教学</p>
+    <content><![CDATA[<hr>
+<p>在此感谢up主<a href="https://www.bilibili.com/video/av44544186" target="_blank" rel="noopener">https://www.bilibili.com/video/av44544186</a> 视屏的教学</p>
 <h1 id="基于hexo框架搭建自己的博客-windows10"><a href="#基于hexo框架搭建自己的博客-windows10" class="headerlink" title="基于hexo框架搭建自己的博客(windows10)"></a>基于hexo框架搭建自己的博客(windows10)</h1><ul>
 <li>前期软件准备  </li>
 </ul>
@@ -38,7 +39,7 @@
 <p>6、输入hexo s命令显示</p>
 <p>INFO  Start processing<br>INFO  Hexo is running at <a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a> . Press Ctrl+C to stop.则表明成功</p>
 <p>7、在浏览器中输入<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a>   则可以看到自己在本地搭建好的博客</p>
-<p>部署到GitHub下期再见</p>
+<hr>
 <p>“愿你我仍在平凡的世界里还是那个不被人理解和不循规蹈矩的创造者”</p>
 ]]></content>
       <categories>
