@@ -104,8 +104,8 @@
   </entry>
   <entry>
     <title>JDBC连接数据库</title>
-    <url>/2020/07/02/JDBC%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
-    <content><![CDATA[<div class="note warning">
+    <url>/2019/12/02/JDBC%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
+    <content><![CDATA[<div class="note success">
             <p>本文章均由作者码字，来之不易，请勿私自转载。</p>
           </div>
 
@@ -137,12 +137,18 @@
 <figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//加载mysql驱动</span></span><br><span class="line">Class.forName(DIRVER);</span><br><span class="line"><span class="comment">//获取连接传入用户名，密码和数据库位置</span></span><br><span class="line">conn = DriverManager.getConnection(URL, USER, PASSWORD);</span><br></pre></td></tr></table></figure>
 
 <ul>
-<li>编写一个方法测试连接成功与否<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">public static void main(String args[]) &#123;</span><br><span class="line">     Connection conn &#x3D; null;</span><br><span class="line">     conn &#x3D; getConnection();</span><br><span class="line">     if (conn !&#x3D; null) &#123;</span><br><span class="line">         &#x2F;&#x2F;主函数测试jdbc，成功则跳出提示框</span><br><span class="line">         JOptionPane.showMessageDialog(null, &quot;连接成功&quot;);</span><br><span class="line">     &#125;</span><br><span class="line">     &#x2F;&#x2F;测试完成后关闭连接</span><br><span class="line">     closeConnection(conn);</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+<li>编写一个方法测试连接成功与否<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span> </span>&#123;</span><br><span class="line">     Connection conn = <span class="keyword">null</span>;</span><br><span class="line">     conn = getConnection();</span><br><span class="line">     <span class="keyword">if</span> (conn != <span class="keyword">null</span>) &#123;</span><br><span class="line">         <span class="comment">//主函数测试jdbc，成功则跳出提示框</span></span><br><span class="line">         JOptionPane.showMessageDialog(<span class="keyword">null</span>, <span class="string">"连接成功"</span>);</span><br><span class="line">     &#125;</span><br><span class="line">     <span class="comment">//测试完成后关闭连接</span></span><br><span class="line">     closeConnection(conn);</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
 
 
 
 </li>
 </ul>
 ]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>-java -jdbc -数据库</tag>
+      </tags>
   </entry>
 </search>
