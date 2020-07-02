@@ -148,7 +148,9 @@
         <category>Java</category>
       </categories>
       <tags>
-        <tag>-java -jdbc -数据库</tag>
+        <tag>java</tag>
+        <tag>jdbc</tag>
+        <tag>数据库</tag>
       </tags>
   </entry>
 </search>
