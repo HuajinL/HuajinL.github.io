@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Android 基础知识</title>
-    <url>/2019/11/10/Android%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E5%AF%BC%E8%88%AA%EF%BC%89/</url>
-    <content><![CDATA[<h3 id="Android基础知识"><a href="#Android基础知识" class="headerlink" title="Android基础知识"></a>Android基础知识</h3><h4 id="一、导航"><a href="#一、导航" class="headerlink" title="一、导航"></a>一、导航</h4><a id="more"></a>
+    <title>经典语录</title>
+    <url>/2019/10/10/%E6%9E%AF%E5%8F%B6%E4%B9%8B%E4%B8%8B__LHJ/</url>
+    <content><![CDATA[<h1 id="欢迎来到枯叶之下的博客"><a href="#欢迎来到枯叶之下的博客" class="headerlink" title="欢迎来到枯叶之下的博客"></a>欢迎来到枯叶之下的博客</h1><h2 id="经典语录："><a href="#经典语录：" class="headerlink" title="经典语录："></a>经典语录：</h2><p>“愿你我仍在平凡的世界里还是那个不被人理解和不循规蹈矩的创造者”</p>
+<a id="more"></a>
 
-<h5 id="1、页面跳转主要代码"><a href="#1、页面跳转主要代码" class="headerlink" title="1、页面跳转主要代码"></a>1、页面跳转主要代码</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">NavController coloController &#x3D; Navigation.findNavController(v);</span><br><span class="line">coloController.navigate(R.id.action_detialFragment_to_homeFragment);</span><br></pre></td></tr></table></figure>
-
-<h5 id="2、页面跳转传递数据主要代码"><a href="#2、页面跳转传递数据主要代码" class="headerlink" title="2、页面跳转传递数据主要代码"></a>2、页面跳转传递数据主要代码</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">EditText editText &#x3D; getView().findViewById(R.id.editText);</span><br><span class="line">String string &#x3D; editText.getText().toString();</span><br><span class="line">if(TextUtils.isEmpty(string))&#123;  </span><br><span class="line">Toast.makeText(getActivity(), &quot;请输入姓名&quot;,Toast.LENGTH_SHORT).show(); </span><br><span class="line">return;</span><br><span class="line">&#125;</span><br><span class="line">Bundle bundle &#x3D; new Bundle();</span><br><span class="line">bundle.putString(&quot;my_name&quot;,string);</span><br><span class="line">NavController controller &#x3D; Navigation.findNavController(v);</span><br><span class="line">controller.navigate(R.id.action_homeFragment_to_detialFragment,bundle);</span><br><span class="line"></span><br><span class="line">String string &#x3D; getArguments().getString(&quot;my_name&quot;);</span><br><span class="line">TextView textView2 &#x3D; getView().findViewById(R.id.textView2);</span><br><span class="line">textView2.setText(string);</span><br></pre></td></tr></table></figure>
-
-<h5 id="3、基于ViewModel传递数据主要代码"><a href="#3、基于ViewModel传递数据主要代码" class="headerlink" title="3、基于ViewModel传递数据主要代码"></a>3、基于ViewModel传递数据主要代码</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">final MyViewModel myViewModel;</span><br><span class="line">myViewModel &#x3D; ViewModelProviders.of(getActivity()).get(MyViewModel.class);</span><br><span class="line">FragmentMasterBinding binding;</span><br><span class="line">binding &#x3D; DataBindingUtil.inflate(inflater,R.layout.fragment_master,container,false);</span><br><span class="line">binding.setData(myViewModel);</span><br><span class="line">binding.setLifecycleOwner(getActivity());</span><br><span class="line">binding.button.setOnClickListener(new View.OnClickListener() &#123;   </span><br><span class="line">@Override</span><br><span class="line">public void onClick(View v) &#123;        </span><br><span class="line">NavController  controller &#x3D; Navigation.findNavController(v);        controller.navigate(R.id.action_masterFragment_to_detailFragment);    &#125;&#125;);</span><br><span class="line">return binding.getRoot();</span><br></pre></td></tr></table></figure>]]></content>
+<p>“希望大家在有能力的时候，尽量帮助到其他的人”</p>
+<p>“真实的自己就已经足够精彩了，没有必要为了迎合谁去做一个人设”<br>“总不能让别人来决定自己的人生吧”<br>“我不知道我们互相可以再陪伴对方多久，许多年之后，再听到这首歌的时候，希望大家可以想到这个夜晚，希望那个时候你也还是像现在一样身边有人，不会觉得孤单”<br>“无论你过去曾是谁，现在是谁，未来会是谁，爱你的喜欢你所有的样子，只愿你平安，只愿你快乐”<br>“每个人都认为自己是特别的那个点，但是走入人群中，就汇入人流里”</p>
+<p>“这个世界上,还有很多不被认可的梦想,不被祝福的感情,不被眷顾的孩子,他们不曾犯错,却只能颤颤巍巍,单薄地行走在路上，这首歌送给他们,借天地万物,不求终将到达某处,只求路上少些阻碍,让他们通往平凡”<br>“每个歌手都有自己的特别之处，我只是恰好会写歌，既然喜欢，那就去做”<br>“人的本质不是喜欢钱，而是钱予人的自由<br>如果这个世界上所有东西都由我来支配的话<br>我根本不需要钱”<br>“内向不是性格缺陷，只是性格的一种”<br>“总有一种感情，让你不求回报地想给予对方一切让你对未来充满期待，它可能不够轰轰烈烈，也未必会天荒地老但只要你未来某天想起它时，心里还会浮起一丝暖意，这便是它的全部意义”<br>“你越来越往后走，发现其实自己也没有什么不同这种泯然众生的感觉，有点不甘心”<br>“我不觉得现在这个时代会有人被埋没到和自己的实力相差的特别远的程度”<br>“作品本身不是一个很适合竞赛的作品我不会说因为我这场赢了，或者输了就调整歌曲服务现场我觉得这个就失去本身你创作的目的了<br>我们不是为了比赛作这首歌这首歌最本真的样子是我们想跟大家表达的，作品留下来是最重要的”<br>“我拒绝给我的人生设限”<br>“我永远感谢那个时候的自己<br>想和他说一句，辛苦了”<br>“坚持梦想和好好生活是不冲突的”<br>“如果有一天我变得很有钱<br>我会买下所有难得一见的笑脸<br>让所有可怜的孩子不再胆怯<br>所有邪恶的人不再掌握话语权”<br>“四十岁就是新的二十岁”<br>“你要允许一些人有安静的青春”<br>“做你想做的事情，每条路都有每条路的风景”<br>“坚持不了的就放弃，也不要觉得它痛苦<br>然后又要去坚持它<br>追求梦想一定是能够给你带来快乐的<br>快乐大于痛苦的时候你才要去坚持它”<br>“男生应该怎么样，女生应该怎么样<br>这种个人观点太强烈的，不符合我们时代对多样性的要求”<br>“每时每刻的我都是真实的我的一部分<br>每时每刻展示出来的都不一样<br>正是这些片段和片刻组成了一个完整的我” ​<br>“如果不想改变的话，请你不要改变”<br>“可时光啊，不听话，总催着人长大<br>这一站到下一站旅途总是停不下”<br>“我理解粉丝们为了支持他做的事情，更是心怀感激，因为爱一个人，任何行为都不为过，他们是最爱我的人”<br>“当你跟别人意见不同想争辩时，其实想想对错也没那么重要”<br>“希望大家都可以不用因为没钱去做自己不喜欢的事”<br>“比赛结果只是一时的，作品放在那里，只要有人听，有人懂，那就是有意义的”<br>“任何故事都让我变成现在的我<br>所以你们只了解我的现在就可以了”<br>“如果他喜欢的是变成明星之后的我<br>那他就不会喜欢之前的我<br>他既然喜欢了，为什么又要要求我像其他明星一样呢”<br>“给我个机会重来一次，我也不会想要去改变什么，因为有遗憾，才能显出来那些不遗憾的好”</p>
+]]></content>
       <categories>
-        <category>安卓</category>
+        <category>语录</category>
       </categories>
       <tags>
-        <tag>Android</tag>
-        <tag>安卓</tag>
+        <tag>语录</tag>
       </tags>
   </entry>
   <entry>
@@ -48,59 +47,6 @@
       <tags>
         <tag>博客</tag>
         <tag>hexo</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>经典语录</title>
-    <url>/2019/10/10/%E6%9E%AF%E5%8F%B6%E4%B9%8B%E4%B8%8B__LHJ/</url>
-    <content><![CDATA[<h1 id="欢迎来到枯叶之下的博客"><a href="#欢迎来到枯叶之下的博客" class="headerlink" title="欢迎来到枯叶之下的博客"></a>欢迎来到枯叶之下的博客</h1><h2 id="经典语录："><a href="#经典语录：" class="headerlink" title="经典语录："></a>经典语录：</h2><p>“愿你我仍在平凡的世界里还是那个不被人理解和不循规蹈矩的创造者”</p>
-<a id="more"></a>
-
-<p>“希望大家在有能力的时候，尽量帮助到其他的人”</p>
-<p>“真实的自己就已经足够精彩了，没有必要为了迎合谁去做一个人设”<br>“总不能让别人来决定自己的人生吧”<br>“我不知道我们互相可以再陪伴对方多久，许多年之后，再听到这首歌的时候，希望大家可以想到这个夜晚，希望那个时候你也还是像现在一样身边有人，不会觉得孤单”<br>“无论你过去曾是谁，现在是谁，未来会是谁，爱你的喜欢你所有的样子，只愿你平安，只愿你快乐”<br>“每个人都认为自己是特别的那个点，但是走入人群中，就汇入人流里”</p>
-<p>“这个世界上,还有很多不被认可的梦想,不被祝福的感情,不被眷顾的孩子,他们不曾犯错,却只能颤颤巍巍,单薄地行走在路上，这首歌送给他们,借天地万物,不求终将到达某处,只求路上少些阻碍,让他们通往平凡”<br>“每个歌手都有自己的特别之处，我只是恰好会写歌，既然喜欢，那就去做”<br>“人的本质不是喜欢钱，而是钱予人的自由<br>如果这个世界上所有东西都由我来支配的话<br>我根本不需要钱”<br>“内向不是性格缺陷，只是性格的一种”<br>“总有一种感情，让你不求回报地想给予对方一切让你对未来充满期待，它可能不够轰轰烈烈，也未必会天荒地老但只要你未来某天想起它时，心里还会浮起一丝暖意，这便是它的全部意义”<br>“你越来越往后走，发现其实自己也没有什么不同这种泯然众生的感觉，有点不甘心”<br>“我不觉得现在这个时代会有人被埋没到和自己的实力相差的特别远的程度”<br>“作品本身不是一个很适合竞赛的作品我不会说因为我这场赢了，或者输了就调整歌曲服务现场我觉得这个就失去本身你创作的目的了<br>我们不是为了比赛作这首歌这首歌最本真的样子是我们想跟大家表达的，作品留下来是最重要的”<br>“我拒绝给我的人生设限”<br>“我永远感谢那个时候的自己<br>想和他说一句，辛苦了”<br>“坚持梦想和好好生活是不冲突的”<br>“如果有一天我变得很有钱<br>我会买下所有难得一见的笑脸<br>让所有可怜的孩子不再胆怯<br>所有邪恶的人不再掌握话语权”<br>“四十岁就是新的二十岁”<br>“你要允许一些人有安静的青春”<br>“做你想做的事情，每条路都有每条路的风景”<br>“坚持不了的就放弃，也不要觉得它痛苦<br>然后又要去坚持它<br>追求梦想一定是能够给你带来快乐的<br>快乐大于痛苦的时候你才要去坚持它”<br>“男生应该怎么样，女生应该怎么样<br>这种个人观点太强烈的，不符合我们时代对多样性的要求”<br>“每时每刻的我都是真实的我的一部分<br>每时每刻展示出来的都不一样<br>正是这些片段和片刻组成了一个完整的我” ​<br>“如果不想改变的话，请你不要改变”<br>“可时光啊，不听话，总催着人长大<br>这一站到下一站旅途总是停不下”<br>“我理解粉丝们为了支持他做的事情，更是心怀感激，因为爱一个人，任何行为都不为过，他们是最爱我的人”<br>“当你跟别人意见不同想争辩时，其实想想对错也没那么重要”<br>“希望大家都可以不用因为没钱去做自己不喜欢的事”<br>“比赛结果只是一时的，作品放在那里，只要有人听，有人懂，那就是有意义的”<br>“任何故事都让我变成现在的我<br>所以你们只了解我的现在就可以了”<br>“如果他喜欢的是变成明星之后的我<br>那他就不会喜欢之前的我<br>他既然喜欢了，为什么又要要求我像其他明星一样呢”<br>“给我个机会重来一次，我也不会想要去改变什么，因为有遗憾，才能显出来那些不遗憾的好”</p>
-]]></content>
-      <categories>
-        <category>语录</category>
-      </categories>
-      <tags>
-        <tag>语录</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>重装系统重新部署Hexo</title>
-    <url>/2020/06/20/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E9%87%8D%E6%96%B0%E9%83%A8%E7%BD%B2Hexo%20blog/</url>
-    <content><![CDATA[<h1 id="重装系统后重新部署Hexo-blog"><a href="#重装系统后重新部署Hexo-blog" class="headerlink" title="重装系统后重新部署Hexo blog"></a>重装系统后重新部署Hexo blog</h1><h3 id="1、安装Git和Node-js"><a href="#1、安装Git和Node-js" class="headerlink" title="1、安装Git和Node.js"></a>1、安装Git和Node.js</h3><h3 id="2、生成ssh密钥"><a href="#2、生成ssh密钥" class="headerlink" title="2、生成ssh密钥"></a>2、生成ssh密钥</h3><ul>
-<li><p>配置Git个人信息和生成ssh密钥</p>
-</li>
-<li><p>打开Git bash ,输入</p>
-</li>
-</ul>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">"xxxxxx"</span></span><br><span class="line">git config --global user.email <span class="string">"xxxxxx@xx.com"</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">"xxxxxx@xx.com"</span></span><br></pre></td></tr></table></figure>
-
-<ul>
-<li>此上命令中xxxxxx为自己GItHub资料</li>
-</ul>
-<h3 id="3、设置-Github-的-ssh-密钥"><a href="#3、设置-Github-的-ssh-密钥" class="headerlink" title="3、设置 Github 的 ssh 密钥"></a>3、设置 Github 的 ssh 密钥</h3><ul>
-<li>运行完上列命令后，会在  C:\Users\主用户里面出现  .ssh 文件夹，里面有id_rsa 和     id_rsa.pub两个文件夹，复制id_rsa.pub的内容。</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/HuajinL/PhotoPlace@latest/2020/06/21/09cc6a6c7b9a2c657d81afcdbd74fa2f.png" alt=""></p>
-<h3 id="4、打开Github网页，依次是-右上角Settings-SSH-and-GPG-keys-New-SSH-key-把复制的内容粘贴到-Key-栏，然后保存。"><a href="#4、打开Github网页，依次是-右上角Settings-SSH-and-GPG-keys-New-SSH-key-把复制的内容粘贴到-Key-栏，然后保存。" class="headerlink" title="4、打开Github网页，依次是 右上角Settings - SSH and GPG keys - New SSH key 把复制的内容粘贴到 Key 栏，然后保存。"></a>4、打开Github网页，依次是 右上角Settings - SSH and GPG keys - New SSH key 把复制的内容粘贴到 Key 栏，然后保存。</h3><p><img src="https://cdn.jsdelivr.net/gh/HuajinL/PhotoPlace@latest/2020/06/21/51c6d6332aaa72d33a7837ac43c9490f.png" alt=""></p>
-<h3 id="5、安装-Hexo-Git-bash"><a href="#5、安装-Hexo-Git-bash" class="headerlink" title="5、安装  Hexo  Git bash"></a>5、安装  Hexo  Git bash</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
-
-<h3 id="6、打开原有博客文件，保留-config-yml，theme-，source-，scaffolds-，package-json，-gitignore-。"><a href="#6、打开原有博客文件，保留-config-yml，theme-，source-，scaffolds-，package-json，-gitignore-。" class="headerlink" title="6、打开原有博客文件，保留_config.yml，theme/，source/，scaffolds/，package.json，.gitignore 。"></a>6、打开原有博客文件，保留_config.yml，theme/，source/，scaffolds/，package.json，.gitignore 。</h3><h3 id="7、安装依赖文件"><a href="#7、安装依赖文件" class="headerlink" title="7、安装依赖文件"></a>7、安装依赖文件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure>
-
-<h3 id="8、安装部署插件"><a href="#8、安装部署插件" class="headerlink" title="8、安装部署插件"></a>8、安装部署插件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
-
-<h3 id="9、运行测试"><a href="#9、运行测试" class="headerlink" title="9、运行测试"></a>9、运行测试</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>博客</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -152,6 +98,60 @@
         <tag>java</tag>
         <tag>jdbc</tag>
         <tag>数据库</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>重装系统重新部署Hexo</title>
+    <url>/2020/06/20/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E5%90%8E%E9%87%8D%E6%96%B0%E9%83%A8%E7%BD%B2Hexo%20blog/</url>
+    <content><![CDATA[<h1 id="重装系统后重新部署Hexo-blog"><a href="#重装系统后重新部署Hexo-blog" class="headerlink" title="重装系统后重新部署Hexo blog"></a>重装系统后重新部署Hexo blog</h1><h3 id="1、安装Git和Node-js"><a href="#1、安装Git和Node-js" class="headerlink" title="1、安装Git和Node.js"></a>1、安装Git和Node.js</h3><h3 id="2、生成ssh密钥"><a href="#2、生成ssh密钥" class="headerlink" title="2、生成ssh密钥"></a>2、生成ssh密钥</h3><ul>
+<li><p>配置Git个人信息和生成ssh密钥</p>
+</li>
+<li><p>打开Git bash ,输入</p>
+</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">git config --global user.name <span class="string">"xxxxxx"</span></span><br><span class="line">git config --global user.email <span class="string">"xxxxxx@xx.com"</span></span><br><span class="line">ssh-keygen -t rsa -C <span class="string">"xxxxxx@xx.com"</span></span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>此上命令中xxxxxx为自己GItHub资料</li>
+</ul>
+<h3 id="3、设置-Github-的-ssh-密钥"><a href="#3、设置-Github-的-ssh-密钥" class="headerlink" title="3、设置 Github 的 ssh 密钥"></a>3、设置 Github 的 ssh 密钥</h3><ul>
+<li>运行完上列命令后，会在  C:\Users\主用户里面出现  .ssh 文件夹，里面有id_rsa 和     id_rsa.pub两个文件夹，复制id_rsa.pub的内容。</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/HuajinL/PhotoPlace@latest/2020/06/21/09cc6a6c7b9a2c657d81afcdbd74fa2f.png" alt=""></p>
+<h3 id="4、打开Github网页，依次是-右上角Settings-SSH-and-GPG-keys-New-SSH-key-把复制的内容粘贴到-Key-栏，然后保存。"><a href="#4、打开Github网页，依次是-右上角Settings-SSH-and-GPG-keys-New-SSH-key-把复制的内容粘贴到-Key-栏，然后保存。" class="headerlink" title="4、打开Github网页，依次是 右上角Settings - SSH and GPG keys - New SSH key 把复制的内容粘贴到 Key 栏，然后保存。"></a>4、打开Github网页，依次是 右上角Settings - SSH and GPG keys - New SSH key 把复制的内容粘贴到 Key 栏，然后保存。</h3><p><img src="https://cdn.jsdelivr.net/gh/HuajinL/PhotoPlace@latest/2020/06/21/51c6d6332aaa72d33a7837ac43c9490f.png" alt=""></p>
+<h3 id="5、安装-Hexo-Git-bash"><a href="#5、安装-Hexo-Git-bash" class="headerlink" title="5、安装  Hexo  Git bash"></a>5、安装  Hexo  Git bash</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+
+<h3 id="6、打开原有博客文件，保留-config-yml，theme-，source-，scaffolds-，package-json，-gitignore-。"><a href="#6、打开原有博客文件，保留-config-yml，theme-，source-，scaffolds-，package-json，-gitignore-。" class="headerlink" title="6、打开原有博客文件，保留_config.yml，theme/，source/，scaffolds/，package.json，.gitignore 。"></a>6、打开原有博客文件，保留_config.yml，theme/，source/，scaffolds/，package.json，.gitignore 。</h3><h3 id="7、安装依赖文件"><a href="#7、安装依赖文件" class="headerlink" title="7、安装依赖文件"></a>7、安装依赖文件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure>
+
+<h3 id="8、安装部署插件"><a href="#8、安装部署插件" class="headerlink" title="8、安装部署插件"></a>8、安装部署插件</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<h3 id="9、运行测试"><a href="#9、运行测试" class="headerlink" title="9、运行测试"></a>9、运行测试</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>博客</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Android 基础知识</title>
+    <url>/2019/11/10/Android%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%EF%BC%88%E5%AF%BC%E8%88%AA%EF%BC%89/</url>
+    <content><![CDATA[<h3 id="Android基础知识"><a href="#Android基础知识" class="headerlink" title="Android基础知识"></a>Android基础知识</h3><h4 id="一、导航"><a href="#一、导航" class="headerlink" title="一、导航"></a>一、导航</h4><a id="more"></a>
+
+<h5 id="1、页面跳转主要代码"><a href="#1、页面跳转主要代码" class="headerlink" title="1、页面跳转主要代码"></a>1、页面跳转主要代码</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">NavController coloController &#x3D; Navigation.findNavController(v);</span><br><span class="line">coloController.navigate(R.id.action_detialFragment_to_homeFragment);</span><br></pre></td></tr></table></figure>
+
+<h5 id="2、页面跳转传递数据主要代码"><a href="#2、页面跳转传递数据主要代码" class="headerlink" title="2、页面跳转传递数据主要代码"></a>2、页面跳转传递数据主要代码</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">EditText editText &#x3D; getView().findViewById(R.id.editText);</span><br><span class="line">String string &#x3D; editText.getText().toString();</span><br><span class="line">if(TextUtils.isEmpty(string))&#123;  </span><br><span class="line">Toast.makeText(getActivity(), &quot;请输入姓名&quot;,Toast.LENGTH_SHORT).show(); </span><br><span class="line">return;</span><br><span class="line">&#125;</span><br><span class="line">Bundle bundle &#x3D; new Bundle();</span><br><span class="line">bundle.putString(&quot;my_name&quot;,string);</span><br><span class="line">NavController controller &#x3D; Navigation.findNavController(v);</span><br><span class="line">controller.navigate(R.id.action_homeFragment_to_detialFragment,bundle);</span><br><span class="line"></span><br><span class="line">String string &#x3D; getArguments().getString(&quot;my_name&quot;);</span><br><span class="line">TextView textView2 &#x3D; getView().findViewById(R.id.textView2);</span><br><span class="line">textView2.setText(string);</span><br></pre></td></tr></table></figure>
+
+<h5 id="3、基于ViewModel传递数据主要代码"><a href="#3、基于ViewModel传递数据主要代码" class="headerlink" title="3、基于ViewModel传递数据主要代码"></a>3、基于ViewModel传递数据主要代码</h5><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">final MyViewModel myViewModel;</span><br><span class="line">myViewModel &#x3D; ViewModelProviders.of(getActivity()).get(MyViewModel.class);</span><br><span class="line">FragmentMasterBinding binding;</span><br><span class="line">binding &#x3D; DataBindingUtil.inflate(inflater,R.layout.fragment_master,container,false);</span><br><span class="line">binding.setData(myViewModel);</span><br><span class="line">binding.setLifecycleOwner(getActivity());</span><br><span class="line">binding.button.setOnClickListener(new View.OnClickListener() &#123;   </span><br><span class="line">@Override</span><br><span class="line">public void onClick(View v) &#123;        </span><br><span class="line">NavController  controller &#x3D; Navigation.findNavController(v);        controller.navigate(R.id.action_masterFragment_to_detailFragment);    &#125;&#125;);</span><br><span class="line">return binding.getRoot();</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>安卓</category>
+      </categories>
+      <tags>
+        <tag>Android</tag>
+        <tag>安卓</tag>
       </tags>
   </entry>
 </search>
