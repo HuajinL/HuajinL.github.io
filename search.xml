@@ -185,4 +185,15 @@
         <tag>单链表</tag>
       </tags>
   </entry>
+  <entry>
+    <title>MySql数据库基本知识</title>
+    <url>/2020/08/13/MySql%E6%95%B0%E6%8D%AE%E5%BA%93%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/</url>
+    <content><![CDATA[<h1 id="MySql数据库基本知识"><a href="#MySql数据库基本知识" class="headerlink" title="MySql数据库基本知识"></a>MySql数据库基本知识</h1><h2 id="1、创建数据库"><a href="#1、创建数据库" class="headerlink" title="1、创建数据库"></a>1、创建数据库</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">create database (数据表名称);</span><br></pre></td></tr></table></figure>
+
+<h2 id="2、创建数据表-User"><a href="#2、创建数据表-User" class="headerlink" title="2、创建数据表(User)"></a>2、创建数据表(User)</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">create table user(</span><br><span class="line">	id int(20) not null primary key,</span><br><span class="line">    name char(30) not null,</span><br><span class="line">    password char(30) not null    </span><br><span class="line">)engine&#x3D;Innodb default charset&#x3D;utf8;</span><br></pre></td></tr></table></figure>
+
+<h2 id="3、插入数据"><a href="#3、插入数据" class="headerlink" title="3、插入数据"></a>3、插入数据</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">insert into user valuse(1,&#39;李华锦&#39;,&#39;123456&#39;);</span><br></pre></td></tr></table></figure>
+
+<h2 id="4、删除数据库"><a href="#4、删除数据库" class="headerlink" title="4、删除数据库"></a>4、删除数据库</h2>]]></content>
+  </entry>
 </search>
