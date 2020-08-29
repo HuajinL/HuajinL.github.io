@@ -192,8 +192,19 @@
 
 <h2 id="2、创建数据表-User"><a href="#2、创建数据表-User" class="headerlink" title="2、创建数据表(User)"></a>2、创建数据表(User)</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">create table user(</span><br><span class="line">	id int(20) not null primary key,</span><br><span class="line">    name char(30) not null,</span><br><span class="line">    password char(30) not null    </span><br><span class="line">)engine&#x3D;Innodb default charset&#x3D;utf8;</span><br></pre></td></tr></table></figure>
 
-<h2 id="3、插入数据"><a href="#3、插入数据" class="headerlink" title="3、插入数据"></a>3、插入数据</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">insert into user valuse(1,&#39;李华锦&#39;,&#39;123456&#39;);</span><br></pre></td></tr></table></figure>
+<h2 id="3、插入数据"><a href="#3、插入数据" class="headerlink" title="3、插入数据"></a>3、插入数据</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">insert into user valuse(1,&#39;张三&#39;,&#39;123456&#39;);</span><br></pre></td></tr></table></figure>
 
 <h2 id="4、删除数据库"><a href="#4、删除数据库" class="headerlink" title="4、删除数据库"></a>4、删除数据库</h2>]]></content>
+  </entry>
+  <entry>
+    <title>Mybatis入门知识</title>
+    <url>/2020/08/19/Mybatis%E5%85%A5%E9%97%A8%E7%9F%A5%E8%AF%86/</url>
+    <content><![CDATA[<h3 id="解决XML文件乱码问题"><a href="#解决XML文件乱码问题" class="headerlink" title="解决XML文件乱码问题"></a>解决XML文件乱码问题</h3><p><img src="C:%5CUsers%5CHuaJinL%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5Cimage-20200819231258844.png" alt="image-20200819231258844"></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>重装系统的快乐。</title>
+    <url>/2020/08/14/%E9%87%8D%E8%A3%85%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%BF%AB%E4%B9%90%E3%80%82/</url>
+    <content><![CDATA[<h1 id="计算机重装系统的快乐"><a href="#计算机重装系统的快乐" class="headerlink" title="计算机重装系统的快乐"></a>计算机重装系统的快乐</h1><h2 id="1、装机必备"><a href="#1、装机必备" class="headerlink" title="1、装机必备"></a>1、装机必备</h2><h2 id="2、编程软件"><a href="#2、编程软件" class="headerlink" title="2、编程软件"></a>2、编程软件</h2><h2 id="3、环境配置"><a href="#3、环境配置" class="headerlink" title="3、环境配置"></a>3、环境配置</h2>]]></content>
   </entry>
 </search>
